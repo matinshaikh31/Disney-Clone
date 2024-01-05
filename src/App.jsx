@@ -1,7 +1,6 @@
 import React from 'react'
-import { BrowserRouter as Router,Route, Routes } from 'react-router-dom'
 import { Header } from './components'
-import SLider from './components/SLider'
+import Slider from './components/Slider'
 import ProductionHouse from './components/ProductionHouse'
 import GenreMovieList from './components/GenreMovieList'
 
@@ -12,7 +11,7 @@ const App = () => {
   return (
     <>
       <Header/>
-      <SLider/>
+      <Slider/>
       <ProductionHouse/>
       <GenreMovieList/>
     </>

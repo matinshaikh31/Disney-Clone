@@ -4,7 +4,7 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css/sea-green";
 const IMAGE_BASE_URL = "https://image.tmdb.org/t/p/original";
 
-const SLider = () => {
+const Slider = () => {
   const [movieList, setMovieList] = useState([]);
 
   useEffect(() => {
@@ -39,4 +39,4 @@ const SLider = () => {
   );
 };
 
-export default SLider;
+export default Slider;
